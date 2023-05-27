@@ -7,6 +7,7 @@ Buni amalga oshirish uchun quyidagi manbalardan foydalanamiz:
 2. [WIDER FACE](http://shuoyang1213.me/WIDERFACE/) dataset
 
 WIDER FACE datasetini train, test va validation datalariga ajratib olamiz va ular yordamida *.yaml fayl shakllantirib olamiz:
+
 ```python
 # Fayl nomi: face.yaml
 
@@ -14,6 +15,7 @@ path: yolov8/dataset
 
 train: train/images
 val: validation/images
+test: test/images
 
 nc: 1
 names: ['face']
