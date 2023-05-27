@@ -41,7 +41,7 @@ from ultralytics import YOLO
 # Modelni yuklab olish
 model = YOLO("yolov8m.pt")
 
-# Modeldan foydalanish
+# Modeldan foydalanib train qilish
 model.train(data="face.yaml", epochs=10)
 ```
 
