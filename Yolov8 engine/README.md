@@ -35,10 +35,5 @@
 Deploy uchun script:
 
 ``` shell
-python deploy.py \
---engine yolov8s.engine \
---imgs data \
---show \
---out-dir outputs \
---device cuda:0
+python deploy.py --video_path video/video.mp4
 ```
