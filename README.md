@@ -6,6 +6,30 @@ Buni amalga oshirish uchun quyidagi manbalardan foydalanamiz:
 1. [YOLOv8](https://github.com/ultralytics/ultralytics) github
 2. [WIDER FACE](http://shuoyang1213.me/WIDERFACE/) dataset
 
+WIDER FACE datasetini train, test va validation datalariga ajratib olamiz va ular yordamida *.yaml fayl shakllantirib olamiz:
+```python
+# Fayl nomi: face.yaml
+
+path: yolov8/dataset
+
+train: train/images
+val: validation/images
+
+nc: 1
+names: ['face']
+```
+
+
+```python
+from ultralytics import YOLO
+
+# Modelni yuklab olish
+model = YOLO("yolov8m.pt")
+
+# Modeldan foydalanish
+model.train(data="face.yaml", epochs=10)
+```
+
 ```bash
 pip install ultralytics
 ```
