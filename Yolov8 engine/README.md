@@ -38,4 +38,4 @@ Deploy uchun script:
 python deploy.py --video_path video/video.mp4
 ```
 
-Ushbu dasturni yaratishda https://github.com/triple-Mu/YOLOv8-TensorRT dan foydalanildi.
+Foydalanildi: [repository](https://github.com/triple-Mu/YOLOv8-TensorRT)
