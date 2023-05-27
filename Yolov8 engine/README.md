@@ -2,23 +2,22 @@
 
 `YOLOv8`modelingizni TensorRT yordamida tezlashtiring!
 
----
+
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge&style=flat)](https://github.com/MisterFoziljon/Face-Detection)
 [![Python Version](https://img.shields.io/badge/Python-3.8--3.10-FFD43B?logo=python)](https://github.com/MisterFoziljon/Face-Detection)
----
 
 
-# Kerakli environmentlar
+# Dastur ishlashi uchun kerakli muhitni yaratib olamiz (environments):
 
 1. `CUDA` [`CUDA official website`](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#download-the-nvidia-cuda-toolkit).
 
-   🚀 TAVSIYA ETILADIgan versiya: `CUDA` >= 11.4
+   🚀 Tavsiya etiladigan versiya: `CUDA` >= 11.4
 
 2. `TensorRT` [`TensorRT official website`](https://developer.nvidia.com/nvidia-tensorrt-8x-download).
 
-   🚀 TAVSIYA ETILADIgan versiya: `TensorRT` >= 8.4
+   🚀 Tavsiya etiladigan versiya: `TensorRT` >= 8.4
 
-3. python requirements.
+3. python requirements:
 
    ``` shell
    pip install -r requirements.txt
