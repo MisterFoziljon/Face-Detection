@@ -45,6 +45,9 @@ model = YOLO("yolov8m.pt")
 model.train(data="face.yaml", epochs=10)
 ```
 
-```bash
-pip install ultralytics
-```
+Train qilish natijasida hosil bo'lgan model(best.pt) tezligi biroz pastroq bo'lgani uchun uni quyidagi modellarga o'tkazamiz va ularda modelni ishlashini sinovdan o'tkazamiz:
+
+1. onnx model (ONNX - Open Neural Network Exchange)
+2. tflite model (TensorFlow Lite) 
+3. engine model (TensorRT)
+
