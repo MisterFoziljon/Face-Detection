@@ -45,6 +45,11 @@ model = YOLO("yolov8m.pt")
 model.train(data="face.yaml", epochs=10)
 ```
 
+Yoki terminal yordamida quyidagi kodni ishlatishingiz mumkin:
+```bash
+yolo train model=yolov8m.pt data=face.yaml epochs=10 imgsz=640 batch=16
+```
+ 
 Train qilish natijasida hosil bo'lgan model(best.pt) tezligi biroz pastroq bo'lgani uchun uni quyidagi modellarga o'tkazamiz va ularda modelni ishlashini sinovdan o'tkazamiz:
 
 1. onnx model ([ONNX](https://onnx.ai/) - Open Neural Network Exchange)
