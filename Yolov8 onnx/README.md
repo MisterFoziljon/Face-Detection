@@ -7,12 +7,12 @@
 [![Python Version](https://img.shields.io/badge/Python-3.8--3.11-FFD43B?logo=python)](https://github.com/MisterFoziljon/Face-Detection)
 
 
-# :
+# ONNX haqida:
 
-1. `CUDA` [`CUDA official website`](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#download-the-nvidia-cuda-toolkit).
-
-   🚀 Tavsiya etiladigan versiya: `CUDA 11.7`
-
+* [ONNX official website](https://onnx.ai/)
+* [ONNX PYPI](https://pypi.org/project/onnx)
+* [ONNX in PyTorch](https://pytorch.org/docs/stable/onnx.html)
+* [ONNX in GitHub](https://github.com/onnx/onnx/blob/main/docs/PythonAPIOverview.md)
 
 python requirements:
 
@@ -20,8 +20,7 @@ python requirements:
    pip install -r requirements.txt
    ```
 
-
-YOLOv8 yordamida o'qitilgan modelni `best.pt`dan  `best.onnx` ko'rinishiga o'tkazish.
+YOLOv8 yordamida o'qitilgan modelni `best.pt`dan  `best.onnx` ko'rinishiga o'tkazish:
 ``` python
 from ultralytics import YOLO
 
@@ -29,12 +28,15 @@ model = YOLO("best.pt")
 model.export(format="onnx")
 ```
 
+ONNX modelni yuklash:
+``` python
+import onnx
+
+onnx_model = onnx.load("path/to/the/model.onnx")
+```
+
 Deploy uchun script:
 
 ``` shell
 python deploy.py --video_path video/video.mp4
 ```
-
-Foydalanilgan manbalar: 
-* [Tensorflow](https://www.tensorflow.org/?hl=ru)
-* [YOLOv8](https://github.com/ultralytics/ultralytics)
