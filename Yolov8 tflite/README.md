@@ -28,12 +28,12 @@
    ```
 
 
-5. YOLOv8 yordamida o'qitilgan modelni `best.pt`dan  `best.onnx` ko'rinishiga o'tkazish.
+5. YOLOv8 yordamida o'qitilgan modelni `best.pt`dan  `best.tflite` ko'rinishiga o'tkazish.
 ``` python
 from ultralytics import YOLO
 
 model = YOLO("best.pt")
-model.export(format="onnx")
+model.export(format="tflite")
 ```
 
 Deploy uchun script:
