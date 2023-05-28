@@ -11,7 +11,7 @@
 
 1. `CUDA` [`CUDA official website`](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#download-the-nvidia-cuda-toolkit).
 
-   🚀 Tavsiya etiladigan versiya: `CUDA` 11.7
+   🚀 Tavsiya etiladigan versiya: `CUDA 11.7`
 
 2. `cuDNN` [`cuDNN archive`](https://developer.nvidia.com/rdp/cudnn-archive)
 
