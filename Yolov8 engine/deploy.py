@@ -74,7 +74,7 @@ def main(args: argparse.Namespace) -> None:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--videos', type=str, help='video file')
+    parser.add_argument('--video_path', type=str, help='video file')
     args = parser.parse_args()
     return args
 
