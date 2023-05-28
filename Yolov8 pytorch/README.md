@@ -15,7 +15,11 @@
 
 2. `Pytorch` [`PyTorch official website`](https://pytorch.org).
 
-   🚀 Tavsiya etiladigan versiya: `torch`==2.0.0+cu117 `torchvision`==0.15.1+cu117 `torchaudio`==2.0.1 [website](https://pytorch.org/get-started/previous-versions/)
+   🚀 Tavsiya etiladigan versiya: 
+   `torch`==2.0.0+cu117 
+   `torchvision`==0.15.1+cu117 
+   `torchaudio`==2.0.1 
+   ([website dan yuklash](https://pytorch.org/get-started/previous-versions/))
    
 
 3. python requirements:
