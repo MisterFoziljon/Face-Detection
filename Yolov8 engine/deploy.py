@@ -29,7 +29,7 @@ def ImageBox(image, new_shape=(640, 640), color=(0, 0, 0)):
 
 
 def main(args: argparse.Namespace) -> None:
-    video_path = args.videos
+    video_path = args.video_path
 
     enggine = TRTEngine('best.engine')
     H, W = enggine.inp_info[0].shape[-2:]
