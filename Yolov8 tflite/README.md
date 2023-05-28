@@ -15,6 +15,8 @@
 
 2. `cuDNN` [`cuDNN archive`](https://developer.nvidia.com/rdp/cudnn-archive)
 
+   🚀 Tavsiya etiladigan versiya: `cuDNN v8.8.0`
+   
 3. `Tensorflow` [`Tensorflow official website`](https://www.tensorflow.org/?hl=ru).
 
    🚀 Tavsiya etiladigan versiya: `tensorflow`==2.11.1
