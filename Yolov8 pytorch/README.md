@@ -14,7 +14,6 @@
    🚀 Tavsiya etiladigan versiya: `CUDA` == 11.7
 
 2. `Pytorch` [`PyTorch official website`](https://pytorch.org).
-pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu117
 
    🚀 Tavsiya etiladigan versiya: `torch`==2.0.0+cu117 `torchvision`==0.15.1+cu117 `torchaudio`==2.0.1 [website](https://pytorch.org/get-started/previous-versions/)
    
